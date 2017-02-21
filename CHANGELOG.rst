@@ -16,6 +16,8 @@ This document describes changes between each past release.
 - Prevent injections in the PostgreSQL permission backend (#1061)
 - Fix crash on ``If-Match: *`` (#1064)
 - Handle Integer overflow in querystring parameters. (#1076)
+- Fix pserve argument ordering with Pyramid 1.8 (#1095)
+
 
 **Internal changes**
 
